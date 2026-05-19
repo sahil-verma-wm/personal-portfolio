@@ -27,8 +27,8 @@ export const personSchema = {
   url: SITE_URL,
   image: {
     "@type": "ImageObject",
-    url: new URL("/sahil-verma.jpg", SITE_URL).toString(),
-    contentUrl: new URL("/sahil-verma.jpg", SITE_URL).toString(),
+    url: new URL("/sahil-verma.webp", SITE_URL).toString(),
+    contentUrl: new URL("/sahil-verma.webp", SITE_URL).toString(),
     width: 897,
     height: 1200,
     caption: `${personal.name} — ${personal.role}`,

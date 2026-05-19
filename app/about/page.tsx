@@ -56,7 +56,7 @@ export default function AboutPage() {
             <aside className="glass rounded-2xl p-6">
               <div className="mb-6 overflow-hidden rounded-xl border border-white/10">
                 <Image
-                  src="/sahil-verma.jpg"
+                  src="/sahil-verma.webp"
                   alt={`${personal.name} — ${personal.role}, based in ${personal.location}`}
                   width={897}
                   height={1200}
